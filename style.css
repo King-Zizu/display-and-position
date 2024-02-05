@@ -1,0 +1,39 @@
+h2, h4, h5{
+    border: 1px solid red;
+    display: block;
+}
+
+a, img{
+    border: 1px solid red;
+    width: 100px;
+    display: inline-block;
+}
+
+span{
+    background-color: rgb(211, 201, 201);
+    padding: 4px;
+    border-radius: 10px;
+    color: black;
+}
+
+/* position css */
+
+.parent{
+    width: 70%;
+    height: 70vh;
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.child{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    z-index: 999;
+
+}
